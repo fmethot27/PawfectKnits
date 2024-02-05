@@ -144,7 +144,7 @@ document.addEventListener("DOMContentLoaded", function () {
       submitButton.addEventListener("click", function () {
         if (validateLogin()) {
           alert("Login successful!");
-        window.location.href = 'homepage.html';
+        window.location.href = 'index.html';
      }
          
     });
