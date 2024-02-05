@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size:50px;
+    line-height: 65px;
+    text-align: center;
+}
+
+h2{
+    font-size:50px;
+    line-height: 50px;
+}
+
+h4{
+    font-size:20px;
+}
+
+body {
+    background-color: #DBC4F0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.wrapper {
+    flex: 1;
+}
+
+#banner{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background-color: rgba(255, 202, 204, 0.7);
+    margin:0;
+    padding:5px;
+    border:none;
+}
+header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background:#FAF3F0;
+    position:sticky;
+    top:0;
+    left:0;
+}
+
+header ul{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li{
+    list-style: none;
+    padding: 0 15px;
+}
+
+li a{
+   text-decoration:none; 
+   font-size: 16px;
+   font-weight: 600;
+   color:black;
+}
+
+li a:hover,
+li a.active {
+    color:aqua;
+}
+#ourmission-box {
+    background-image: linear-gradient(to right, #FFD3A5, #FFAAA6);
+    display: flex;
+    max-width: 60%;
+    max-height: 500px;
+    margin: 0 auto; 
+    margin-bottom: 40px;
+    padding: 20px;
+   border-radius: 8px;
+}
+
+#ourmission-box p {
+    text-align: center;
+    font-weight: bold;
+}
+
+#francis-box,
+#peng-box,
+#yan-box {
+    display: flex;
+    max-width: 60%;
+    max-height: 500px;
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 12px solid #FFCACC;
+    border-radius: 8px;
+    width: 50%;
+}
+
+#francis-box {
+    background-image: linear-gradient(to right, #FFD3A5, #FFAAA6);
+}
+
+#peng-box {
+    background-image: linear-gradient(to left, #FFD3A5, #FFAAA6);
+    float: right;
+}
+
+#yan-box {
+    background-image: linear-gradient(to right, #FFD3A5, #FFAAA6);
+    clear: left;
+}
+
+#francis-box img,
+#peng-box img,
+#yan-box img {
+    max-width: 200px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+#francis-box img {
+max-height: 200px;
+}
+
+.text-area {
+    flex-grow: 1;
+}
+
+#francis-title,
+#peng-title,
+#yan-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+footer{
+    background-color: rgba(250, 243, 240, 0.8);
+    margin-top: auto;
+}
+
+#fakelinks ul{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+footer p{
+    text-align: center;
+    
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sign Up | By Code Info</title>
+    <link rel="stylesheet" href="./style/login.css" />
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html"><img src="./asset/logomark.svg" class="logo" alt="logo" style="width: auto; height: 60px"></a>Pawfect Knits</h1>
+    </header> 
+    
+    <div class="signup-box">
+        <h1>Sign Up</h1>
+        <h4>It's free and only takes a minute</h4>
+        <form>
+            <label for="first_name">First Name</label>
+            <input type="text" name="first_name" id="first_name" placeholder="Enter your first name" />
+
+            <label for="last_name">Last Name</label>
+            <input type="text" name="last_name" id="last_name" placeholder="Enter your last name" />
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email address" />
+
+            <label for="pets_name">Pet's Name</label>
+            <input type="text" name="pets_name" id="pets_name" placeholder="Enter your pet's name" />
+
+            <label for="pets_breed">Pet's Breed</label>
+            <select id="pets_breed" name="pets_breed">
+                <option value="labrador">Labrador</option>
+                <option value="poodle">Poodle</option>
+                <option value="poodle">Bulldog</option>
+                <option value="poodle">Husky</option>
+                <option value="poodle">Chihuahua</option>
+                <option value="poodle">German Shepherd</option>
+                <option value="custom">Other (Please specify)</option>
+            </select>
+            <input type="text" id="custom_pets_breed" name="custom_pets_breed" placeholder="Specify pet's breed"
+                style="display: none;">
+
+            <label for="pets_age">Pet's Age</label>
+            <select id="pets_age" name="pets_age">
+                <option value="1">1 year</option>
+                <option value="2">2 years</option>
+                <option value="3">3 years</option>
+                <option value="4">4 years</option>
+                <option value="5">5 years</option>
+                <option value="6">6 years</option>
+                <option value="custom">Other (Please specify)</option>
+            </select>
+            <input type="text" id="custom_pets_age" name="custom_pets_age" placeholder="Specify pet's age"
+                style="display: none;">
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password"
+                placeholder="Enter your password (At least 8 characters)" />
+
+            <label for="confirm_password">Confirm Password</label>
+            <input type="password" name="confirm_password" id="confirm_password"
+                placeholder="Confirm your password (At least 8 characters)" />
+
+            <input type="button" value="Submit" onclick="validateForm()" />
+        </form>
+        <p>
+            By clicking the Sign Up button, you agree to our <br />
+            <a href="#">Terms and Condition</a> and <a href="#">Policy Privacy</a>
+        </p>
+        </p>
+    </div>
+    <p class="para-2">
+        Already have an account? <a href="login.html"><strong>Login here</strong></a>
+    </p>
+    <footer>
+        <div id="fakelinks">
+            <ul>
+                <li><a href="index.html" style="display: block; padding: 5px 0; color:white;">Home</a></li>
+                <li><a href="" style="display: block; padding: 5px 0; color:white;">FAQs</a></li>
+                <li><a href="" style="display: block; padding: 5px 0; color:white;">Return&Exchanges</a></li>
+                <li><a href="contact.html" style="display: block; padding: 5px 0; color:white;">Store locator</a></li>
+                <li><a href="" style="display: block; padding: 5px 0; color:white;">Reviews</a></li>
+                <li><a href="" style="display: block; padding: 5px 0; color:white;">Privacy</a></li>
+                <li><a href="" style="display: block; padding: 5px 0; color:white;">Join the teams</a></li>
+            </ul>
+        </div>
+        <p style="margin: 0; color: white;">&copy; 2024 PAWFECT KNITS. All rights reserved.</p>
+    </footer>
+	<script src="./javascript/script.js"></script>
+</body>
+</html>

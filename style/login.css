@@ -1,0 +1,127 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    background-image: url('../asset/pexels-josh-hild-19987954.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+  
+  .signup-box,
+  .login-box {
+      width: 360px;
+      margin: auto;
+      border-radius: 3px;
+      background-color: rgba(255, 255, 255, 0.5); 
+      backdrop-filter: blur(10px);
+      transition: background-color 0.3s ease;
+  }
+  
+  .signup-box:hover,
+  .login-box:hover {
+      background-color: rgba(255, 255, 255, 0.7);
+  }
+  
+  
+  h1 {
+    text-align: center;
+    padding-top: 15px;
+  }
+  
+  h4 {
+    text-align: center;
+  }
+  
+  form {
+    width: 300px;
+    margin-left: 20px;
+  }
+  
+  form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+  }
+
+  form select,
+form input[type="text"],
+form input[type="text"][id^="custom_"] {
+  width: 100%;
+  padding: 7px;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+  margin-top: 5px;
+}
+
+form input[type="text"][id^="custom_"] {
+  display: none;
+}
+
+input[type="button"] {
+  width: 320px;
+  height: 35px;
+  margin-top: 20px;
+  border: none;
+  background-color: #49c1a2;
+  color: white;
+  font-size: 18px;
+}
+
+input[type="button"]:hover {
+  background-color: #3f9676;
+}
+
+  input[type="button"] {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #49c1a2;
+    color: white;
+    font-size: 18px;
+  }
+  p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+  .para-2 {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: -10px;
+}
+  .para-2 a {
+    color: #49c1a2;
+}
+    
+  #fakelinks ul {
+    list-style: none; 
+    padding: 0; 
+    text-align: center; 
+}
+
+#fakelinks ul li {
+    display: inline-block; 
+    margin-bottom: 5px; 
+}
+    
+    footer p{
+        text-align: center;
+}
